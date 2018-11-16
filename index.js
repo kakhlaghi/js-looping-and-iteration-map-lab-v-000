@@ -8,7 +8,7 @@ function lowerCaseDrivers(someArray){
 
 
 function nameToAttributes(someArray){
-  return someArray.map(function(){
-    return ""
+  return someArray.map(function(someArray){
+    return `${someArray[name]}`
   })
 }
