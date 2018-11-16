@@ -9,6 +9,6 @@ function lowerCaseDrivers(someArray){
 
 function nameToAttributes(someArray){
   return someArray.map(function(someArray){
-    return `${someArray[name]} is from ${someArray}.`
+    return `${someArray[name]} is from ${someArray[name]}.`
   })
 }
